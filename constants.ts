@@ -4,7 +4,7 @@ import { CapturedResponseItem } from './types';
 export const APP_TITLE = "Webhook";
 export const APP_SUBTITLE = "Incoming Webhook";
 export const CALLBACK_URL_PATH = "/api/webhook"; // Actual path on your backend
-export const DEFAULT_BACKEND_URL = "http://localhost:3001"; // Default backend URL
+export const DEFAULT_BACKEND_URL = "https://your-backend.vercel.app"; // Default backend URL
 
 export const DEFAULT_WEBHOOK_NAME = "Untitled Webhook";
 
