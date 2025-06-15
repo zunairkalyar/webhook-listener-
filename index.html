@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopify Webhook Listener</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom scrollbar for better aesthetics in JSON viewer */
+    .json-viewer::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    .json-viewer::-webkit-scrollbar-track {
+      background: #2d3748; /* dark-700 */
+    }
+    .json-viewer::-webkit-scrollbar-thumb {
+      background: #4a5568; /* dark-500 */
+      border-radius: 4px;
+    }
+    .json-viewer::-webkit-scrollbar-thumb:hover {
+      background: #718096; /* dark-400 */
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "socket.io-client": "https://esm.sh/socket.io-client@^4.7.5/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-900 text-slate-100">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

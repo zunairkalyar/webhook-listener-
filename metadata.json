@@ -1,0 +1,5 @@
+{
+  "name": "Shopify Webhook Listener",
+  "description": "A frontend application to simulate listening to Shopify webhooks, displaying callback URLs, and showing incoming webhook data in real-time. This app simulates the frontend of a webhook management tool; a separate backend would be required for actual webhook processing and HMAC verification.",
+  "requestFramePermissions": []
+}
